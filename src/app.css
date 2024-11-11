@@ -57,3 +57,135 @@
     object-fit: cover;
   }
   
+
+/* Footer */
+.footer-container {
+    background-color: #fffefe;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 429px; 
+    color: #191919;
+    font-family: "Inter-Regular", Helvetica;
+    position: relative;
+  }
+  
+  
+  .footer-title {
+    position: absolute;
+    top: 2rem; 
+    left: 2rem; 
+    font-family: "Archivo-Bold", Helvetica;
+    font-size: 23px;
+    font-weight: 700;
+    color: #f25931;
+    margin: 0;
+  }
+  
+ 
+  .newsletter-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: auto; 
+    margin-top: 8rem;
+  }
+  
+  .newsletter-title {
+    color: #3f4040;
+    font-family: "Archivo-Bold", Helvetica;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .newsletter-description {
+    color: #868686;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .newsletter-signup {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email-input {
+    background-color: #f0f0f0;
+    border: 1px solid #f9a08b;
+    border-radius: 3px;
+    padding: 0.5rem;
+    font-size: 14px;
+    color: #babbbc;
+    width: 225px;
+  }
+  
+  .subscribe-button {
+    background-color: #fb6542;
+    color: #fffefe;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+
+  .footer-credits {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 12px;
+    color: #868686;
+  }
+  
+ 
+  .footer-links {
+  position: absolute;
+  top: 3rem; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10rem;
+  text-align: center;
+  }
+  
+  .footer-link-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .footer-link-group a {
+    color: #191919;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+  }
+  
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .social-icon {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }

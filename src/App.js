@@ -6,6 +6,7 @@ import Recipes from './pages/recipes';
 import Recipe from './pages/recipe';
 import Contact from './pages/contact';
 import Header from './components/header';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/recipe" element={<Recipe />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
+    <Footer />
   </Router>
   );
 }
