@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chef-portfolio/static/css/main.152e178b.css",
+    "main.js": "/chef-portfolio/static/js/main.4c60e7a0.js",
+    "index.html": "/chef-portfolio/index.html",
+    "main.152e178b.css.map": "/chef-portfolio/static/css/main.152e178b.css.map",
+    "main.4c60e7a0.js.map": "/chef-portfolio/static/js/main.4c60e7a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.152e178b.css",
+    "static/js/main.4c60e7a0.js"
+  ]
+}
