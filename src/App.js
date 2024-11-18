@@ -5,6 +5,7 @@ import About from './pages/about';
 import Recipes from './pages/recipes';
 import Recipe from './pages/recipe';
 import Contact from './pages/contact';
+import SignUp from './pages/signup';
 import Header from './components/header';
 import Footer from './components/footer';
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/recipes" element={<Recipes />} />
       <Route path="/recipe" element={<Recipe />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/signup" element={<SignUp />} />
     </Routes>
     <Footer />
   </Router>

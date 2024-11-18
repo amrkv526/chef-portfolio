@@ -189,3 +189,96 @@
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  /* Sign Up */
+
+.signup-container {
+  background-color: #f25931;
+  color: #fffefe;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container .label {
+  width: auto;
+}
+
+.signup-container .label.ABOUT {
+  color: #fffefe;
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 78px;
+  white-space: nowrap;
+}
+
+.signup-container h2.label {
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 78px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.input-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.signup-container .container {
+  background-color: #fffefe;
+  border: 1px solid #fffefe;
+  border-radius: 8px;
+  height: 40px;
+  width: 358px;
+  padding: 0.5rem;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.signup-container .small-container {
+  width: 170px; 
+}
+
+.signup-container .button {
+  all: unset;
+  background-color: #005617;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  height: 40px;
+  width: 200px;
+  margin-top: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.signup-container .button .subscribe {
+  color: #fffefe;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  white-space: nowrap;
+}
