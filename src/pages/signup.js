@@ -6,7 +6,6 @@ function SignUp() {
     <h1 className="label ABOUT">Sign Up</h1>
       <h2 className="label">Enter your details below:</h2>
       <form className="signup-form">
-        {/* Row for First and Last Name */}
         <div className="input-row">
           <div className="input-group">
             <label htmlFor="firstName">First Name:</label>
@@ -31,7 +30,6 @@ function SignUp() {
             />
           </div>
         </div>
-        {/* Email Field */}
         <div className="input-group">
           <label htmlFor="email">Email:</label>
           <input
@@ -43,7 +41,6 @@ function SignUp() {
             required
           />
         </div>
-        {/* Submit Button */}
         <button type="submit" className="button">
           <span className="subscribe">Sign Up</span>
         </button>

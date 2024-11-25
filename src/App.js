@@ -3,11 +3,12 @@ import './app.css';
 import Home from './pages/home';
 import About from './pages/about';
 import Recipes from './pages/recipes';
-import Recipe from './pages/recipe';
+import Recipe from './components/recipeCard.js';
 import Contact from './pages/contact';
 import SignUp from './pages/signup';
 import Header from './components/header';
 import Footer from './components/footer';
+import 
 
 function App() {
   return (
