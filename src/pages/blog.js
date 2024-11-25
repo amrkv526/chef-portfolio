@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogArticleCard from '../components/BlogArticleCard';
+import BlogArticleCard from '../components/articleCard';
 
 function Blog() {
   const articles = [
