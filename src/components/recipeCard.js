@@ -7,7 +7,7 @@ function Recipe({ recipe: propRecipe }) {
   const recipes = {
     1: {
       title: 'Spaghetti Carbonara',
-      image: 'https://via.placeholder.com/150',
+      image: '/images/pepperSteak.jpeg',
       tags: ['Italian', 'Dinner'],
       ingredients: ['Pasta', 'Eggs', 'Pancetta', 'Parmesan'],
       steps: 'Boil pasta, mix with other ingredients.',

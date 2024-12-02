@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom';
 function Recipes() {
   const recipes = {
     1: { 
-      title: 'Spaghetti Carbonara', 
-      image: 'https://via.placeholder.com/150', 
-      tags: ['Italian', 'Dinner'], 
+      title: 'Jamaican Pepper Steak', 
+      image: '/images/pepperSteak.jpeg', 
+      tags: ['Jamaican', 'Dinner'], 
     },
     2: { 
-      title: 'Vegetable Stir Fry', 
-      image: 'https://via.placeholder.com/150', 
-      tags: ['Vegetarian', 'Quick'], 
+      title: 'Jamaican Grilled Stuffed Red Snapper', 
+      image: '/images/snapper.jpeg', 
+      tags: ['Pescatarian', 'Jamaican'], 
     },
     3: { 
-      title: 'Chocolate Cake', 
-      image: 'https://via.placeholder.com/150', 
-      tags: ['Dessert', 'Sweet'], 
+      title: 'Jamaican Stew Peas with Spinners', 
+      image: '/images/peaStew.webp', 
+      tags: ['Jamaican', 'Vegetarian'], 
     },
   };
 
