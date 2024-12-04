@@ -325,3 +325,72 @@
   height: auto;
   border-radius: 8px;
 }
+
+
+/*Recipes*/
+
+/* Container for the Recipes page */
+.recipes-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Grid layout for the recipe cards */
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+/* Each recipe card */
+.recipe-card {
+  position: relative;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Recipe images */
+.recipe-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Recipe title */
+.recipe-title {
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f3633d;
+  text-align: center;
+  margin: 15px 0;
+  line-height: 1.4;
+}
+
+/* Recipe tags */
+.recipe-tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.recipe-tag {
+  color: #f3633d;
+  font-size: 12px;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
