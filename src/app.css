@@ -634,3 +634,46 @@
   background-color: #292929;
   color: white;
 }
+
+
+/* article card */
+
+/* Container for the blog article view */
+.blog-article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Title styling */
+.blog-article-title {
+  color: #F25931;
+  font-family: Archivo, sans-serif;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+.blog-article-image {
+  width: 1295px;
+  height: 1598px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+/* Article text styling */
+.blog-article-text {
+  color: #1D1D1D;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 1134px;
+  text-align: center;
+  margin-top: 20px;
+}
