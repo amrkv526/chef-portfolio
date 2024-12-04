@@ -21,20 +21,26 @@ function Shop() {
   };
 
   return (
-    <div className="shop-grid">
-      {Object.entries(products).map(([id, product]) => (
-        <div key={id} className="product-card">
-          <Link to={`/shop/${id}`}>
-            <img src={product.image} alt={product.title} className="product-image" />
-            <h2 className="product-title">{product.title}</h2>
-          </Link>
-          <div className="product-tags">
-            {product.tags.map((tag, index) => (
-              <span key={index} className="product-tag">{tag}</span>
-            ))}
+    <div className="shop-container">
+      <h1 className="shop-title">
+        Things you want,<br />
+        things you need
+      </h1>
+      <div className="shop-grid">
+        {Object.entries(products).map(([id, product]) => (
+          <div key={id} className="product-card">
+            <Link to={`/shop/${id}`} className="product-link">
+              <img src={product.image} alt={product.title} className="product-image" />
+              <h2 className="product-title">{product.title}</h2>
+            </Link>
+            <div className="product-tags">
+              {product.tags.map((tag, index) => (
+                <span key={index} className="product-tag">{tag}</span>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
