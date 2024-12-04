@@ -758,3 +758,306 @@
   border-radius: 20px;
   text-transform: capitalize;
 }
+
+/* Container for the contact page */
+.contact-container {
+  background-color: #f25931;
+  color: #fffefe;
+  padding: 40px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact page title */
+.contact-title {
+  color: #fffefe;
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+
+/* Content section with form and image */
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Contact form container */
+.contact-form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact image container */
+.contact-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact image styling */
+.contact-image {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the entire Events page */
+.events-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  background-color: #fff;
+  color: #1A1A1A;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+}
+
+/* Section title styling */
+.events-container h1 {
+  color: #F25931;
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.events-container h2 {
+  color: #F25931;
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Past Events Grid */
+.past-events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Event card styling */
+.event-card {
+  background-color: #FFF;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.event-card h3 {
+  color: #F25931;
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  color: #1A1A1A;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Calendar Booking Section */
+.calendar-booking {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.calendar {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Booking Form Styling */
+.booking-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.booking-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1A1A1A;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 10px;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.booking-form button {
+  background-color: #F25931;
+  color: #FFF;
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.booking-form button:hover {
+  background-color: #d94d29;
+}
+
+/* Upcoming Events Section */
+.events-container ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.events-container ul li {
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.react-calendar {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+}
+
+.react-calendar__tile--active {
+  background-color: #f25931;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.react-calendar__tile--now {
+  background-color: #f9a08b;
+  border-radius: 4px;
+}
+
+/* Container for the entire events page */
+.events-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  background-color: #fff;
+  color: #1A1A1A;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+}
+
+/* Section titles */
+.events-container h1,
+.events-container h2 {
+  color: #F25931;
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Past Events Section */
+.past-events-section {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.past-events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Event card */
+.event-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.event-card h3 {
+  color: #F25931;
+  font-family: "Archivo-Bold", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  color: #1A1A1A;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

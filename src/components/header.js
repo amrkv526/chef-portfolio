@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../app.css';
 
 function Header() {
@@ -19,7 +20,9 @@ function Header() {
           <a href="/shop">Shop</a>
           <a href="/contact">Contact</a>
           <img src="/images/shopping-cart.png" alt="Shopping cart" className="shopping-cart" />
-          <button className="sign-up-button">Sign Up</button>
+          <Link to="/signup">
+            <button className="sign-up-button">Sign Up</button>
+          </Link>
         </div>
         
       </nav>
