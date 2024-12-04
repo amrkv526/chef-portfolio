@@ -394,3 +394,140 @@
   border-radius: 20px;
   text-transform: uppercase;
 }
+
+
+/* Recipe Card */
+
+/* Container for the recipe page */
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Title styling */
+.recipe-title {
+  color: #F25931;
+  font-family: Archivo, sans-serif;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Tags styling */
+.recipe-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-tag {
+  color: #F2633E;
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  background: #FFECE6;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Image styling */
+.recipe-image {
+  width: 1295px;
+  height: 1598px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+/* Content section */
+.recipe-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1295px;
+  margin-bottom: 20px;
+}
+
+/* Intro section */
+.recipe-intro {
+  color: #F9A08B;
+  font-family: Archivo, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 417px;
+}
+
+/* Ingredients section */
+.recipe-ingredients {
+  color: #005617;
+  font-family: Archivo, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 658px;
+}
+
+.recipe-ingredients ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* Directions section */
+.recipe-directions {
+  text-align: center;
+  width: 733px;
+  margin-bottom: 20px;
+}
+
+.recipe-directions h2 {
+  color: #1D1D1D;
+  font-family: Archivo, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.recipe-directions p {
+  color: #1D1D1D;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.recipe-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.recipe-extra span {
+  color: #1D1D1D;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.print-button {
+  background: #F25931;
+  color: #fff;
+  font-family: Archivo, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background: #d24b27;
+}
