@@ -531,3 +531,106 @@
 .print-button:hover {
   background: #d24b27;
 }
+
+
+/* Blog */
+
+/* Container for the entire blog page */
+.blog-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Blog title */
+.blog-title {
+  color: #F25931;
+  font-family: Archivo, sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 76px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Container for all blog articles */
+.blog-articles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+/* Individual blog article layout */
+.blog-article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.article-image-left {
+  flex-direction: row;
+}
+
+.article-image-right {
+  flex-direction: row-reverse;
+}
+
+/* Article image */
+.blog-article-image {
+  width: 494px;
+  height: 656px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Article content container */
+.blog-article-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 514px;
+  text-align: center;
+}
+
+/* Article title */
+.blog-article-title {
+  color: #F25730;
+  font-family: Archivo, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+/* Article blurb */
+.blog-article-text {
+  color: #1A1A1A;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+/* Link to the full article */
+.blog-article-link {
+  color: #292929;
+  font-family: Archivo, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+  border: 2px solid #292929;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.blog-article-link:hover {
+  background-color: #292929;
+  color: white;
+}
