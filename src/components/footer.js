@@ -42,7 +42,7 @@ function Footer() {
 
 
       <div className="social-icons">
-        <img src="/images/youtube.png" alt="YouTube" className="social-icon" />
+        <img src="/images/youtube.png" alt="YouTube" className="yt-social-icon" />
         <img src="/images/instagram.png" alt="Instagram" className="social-icon" />
         <img src="/images/twitter.png" alt="Twitter" className="social-icon" />
       </div>

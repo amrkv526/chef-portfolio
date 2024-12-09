@@ -6,23 +6,24 @@ function Recipes() {
     1: {
       title: 'Jamaican Pepper Steak',
       image: '/images/pepperSteak.jpeg',
-      tags: ['Jamaican', 'Dinner'],
+      tags: ['Jamaican', 'Dinner', 'Beef'],
     },
     2: {
       title: 'Jamaican Grilled Stuffed Red Snapper',
       image: '/images/snapper.jpeg',
-      tags: ['Pescatarian', 'Jamaican'],
+      tags: ['Pescatarian', 'Jamaican', 'Fish'],
     },
     3: {
       title: 'Jamaican Stew Peas with Spinners',
       image: '/images/peaStew.webp',
-      tags: ['Jamaican', 'Vegetarian'],
+      tags: ['Jamaican', 'Pork'],
     },
   };
 
   const categories = [
-    ['Vegetarian', 'Vegan'],
-    ['Jamaican', 'Pescatarian'],
+    ['Vegetarian', 'Vegan', 'Pescatarian', 'Gluten Free', 'Appetizers', 'Low Carb', 'High Protein'],
+    ['Easy', 'Elaborate', 'Quick Meals', 'Family-Friendly', 'Healthy', 'Comfort Food', 'Party Food'],
+    ['Desserts', 'Breakfast', 'Lunch', 'Dinner', 'Snacks', 'Drinks', 'Sides']
   ];
 
   return (

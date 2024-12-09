@@ -9,7 +9,7 @@ import SignUp from './pages/signup';
 import Header from './components/header';
 import Footer from './components/footer';
 import Blog from './pages/blog.js';
-import BlogArticleCard from './components/articleCard.js';
+import BlogArticle from './components/articleCard.js';
 import Shop from './pages/shop.js';
 import Events from './pages/events.js';
 
@@ -25,7 +25,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:id" element={<BlogArticleCard />} />
+      <Route path="/blog/:id" element={<BlogArticle />} />
       <Route path="/shop" element={<Shop />} />
       <Route path="/events" element={<Events />} />
     </Routes>

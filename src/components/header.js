@@ -6,15 +6,16 @@ function Header() {
   return (
     <header className="header-container">
       <nav className="header-nav">
-        
         <div className="header-links left-links">
           <a href="/about">About</a>
           <a href="/recipes">Recipes</a>
           <a href="/blog">Blog</a>
         </div>
-        
-        <h1 className="header-title">Chef Dionne Reid</h1>
-        
+
+        <h1 className="header-title">
+          <a href="/" className="title-link">Chef Dionne Reid</a>
+        </h1>
+
         <div className="header-links right-links">
           <a href="/events">Events</a>
           <a href="/shop">Shop</a>
@@ -24,7 +25,6 @@ function Header() {
             <button className="sign-up-button">Sign Up</button>
           </Link>
         </div>
-        
       </nav>
     </header>
   );
