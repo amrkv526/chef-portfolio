@@ -30,7 +30,7 @@ function About() {
             Food has brought her to kitchens in Boston and New York, France and now, Toronto. Yay, to new adventures!
           </p>
           <img 
-            src="https://via.placeholder.com/150" 
+            src="/images/aboutplaceholder.jpg" 
             alt="Chef Dionne Cooking" 
             className="about-image image3"
           />
